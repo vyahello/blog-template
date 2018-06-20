@@ -1,0 +1,15 @@
+version: "2"
+services:
+  flask-blog:
+    image: vyahello/flask-blog:1.0.0
+    hostname: flask-blog
+    ports:
+    - 5000:5000
+  flask-blog-at-tests:
+    image: vyahello/flask-blog-at-tests:1.0.0
+    hostname: flask-blog-at-tests
+    depends_on:
+      - flask-blog
+    volumes:
+      - ./results:/at-tests/results
+    network_mode: host
