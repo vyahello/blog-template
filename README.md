@@ -27,7 +27,7 @@ Execute next command in your shell
   git config --local user.email "vjagello93@gmail.com"
   ```
 - `python3.6` is required to run the code
-- run `pip install -r requirements.txt` to install all require python packages
+- run `pip install -r requirements-blog.txt` to install all flask blog required python packages
 
 ## Run automated tests
 - To run all tests please execute `./run-tests all` from shell in the root directory of the repository.
