@@ -1,0 +1,13 @@
+Pillow
+werkzeug
+requests
+urllib3
+sqlalchemy
+flask
+flask_bcrypt
+flask_login
+flask_sqlalchemy
+flask_wtf
+wtforms
+pytest
+pytest-html
