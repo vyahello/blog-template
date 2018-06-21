@@ -1,5 +1,5 @@
 # Flask web server (blog)
-Basic web server (blog) supported by docker written in flask (python web framework).
+Basic web server (blog) written in flask (python web framework).
 
 ## Run a blog
 Execute next command in your shell
