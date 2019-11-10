@@ -1,11 +1,5 @@
-# Flask web server (blog)
-Basic web server (blog) written in flask (python web framework).
-
-## Run a blog
-Execute next command in your shell
-```bash
-~ python blog.py
-```
+# Blog template
+Basic blog web application written in [_flask_](http://flask.palletsprojects.com/en/1.1.x/) python mirco-web framework.
 
 ## Structure
 ### Home Page
@@ -17,24 +11,18 @@ Execute next command in your shell
 ### Register Page
 ![Screenshot](server/images/register.png)
 
-## Contributing
-
-### Setup
-- clone the repository
-- configure Git for the first time after cloning with your name and email
-  ```bash
-  git config --local user.name "Volodymyr Yahello"
-  git config --local user.email "vjagello93@gmail.com"
-  ```
-- `python3.6` is required to run the code
-- run `pip install -r requirements-blog.txt` to install all flask blog required python packages
-- run `pip install -r requirements-at-tests.txt` to install all automated tests flask blog required python packages
+## Run a blog
+Execute next command in your shell
+```bash
+~ python blog.py
+```
 
 ## Run automated tests
 - To run all tests please execute `./run-tests all` from shell in the root directory of the repository.
 - To run basic smoke tests please execute `./run-tests smoke` from shell in the root directory of the repository.
 - To run performance tests please execute `./run-tests performance` from shell in the root directory of the repository.
 - To run unittests please execute `./run-tests unittest` from shell in the root directory of the repository.
+
 ### Testing report
 - Open `tests/resuls/test-report.html` file after tests execution
 
@@ -51,3 +39,14 @@ Use `docker-compose.yaml` file to run firstly flask blog and then automated test
 ```bash
 ~ docker-compose -p flask-services up
 ```
+
+## Contributing
+- clone the repository
+- configure Git for the first time after cloning with your name and email
+  ```bash
+  git config --local user.name "Volodymyr Yahello"
+  git config --local user.email "vjagello93@gmail.com"
+  ```
+- `python3.6` is required to run the code
+- run `pip install -r requirements-blog.txt` to install all flask blog required python packages
+- run `pip install -r requirements-at-tests.txt` to install all automated tests flask blog required python packages
