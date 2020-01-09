@@ -1,16 +1,6 @@
 # Blog template
 Basic blog web application written in [_flask_](http://flask.palletsprojects.com/en/1.1.x/) python mirco-web framework.
 
-## Structure
-### Home Page
-![Screenshot](server/images/home.png)
-### About Page
-![Screenshot](server/images/about.png)
-### Login Page
-![Screenshot](server/images/login.png)
-### Register Page
-![Screenshot](server/images/register.png)
-
 ## Run a blog
 Execute next command in your shell
 ```bash
